@@ -1,0 +1,5 @@
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Set the background color to electric blue
+gui.BackgroundColor3 = Color3.fromRGB(0, 162, 232)
